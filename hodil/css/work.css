@@ -1,0 +1,74 @@
+/*=====================
+    Work Area CSS
+======================*/
+.single_work {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.single_work_icon {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background: #fbbf3f;
+  line-height: 100px;
+  border-radius: 50%;
+}
+.work_separate {
+  height: 1px;
+  margin: 20px 0;
+  position: relative;
+  z-index: 2;
+  border-top: 1px solid #fff;
+}
+.work_separate::after {
+  position: absolute;
+  content: "";
+  height: 5px;
+  width: 5px;
+  background: #fbbf3f;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  margin-top: -3px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.single_work:hover .work_separate::after {
+  width: 100%;
+  left: 0;
+  height: 1px;
+  top: 2px;
+  border-radius: 0;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.work_area {
+  counter-reset: works;
+}
+.work_area .row:last-child > div {
+  position: relative;
+  z-index: 2;
+}
+.work_area .row:last-child > div:after {
+  position: absolute;
+  content: "" counter(works) " ";
+  counter-increment: works;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 26px;
+  border-radius: 50%;
+  background: #3f7bfb;
+  top: 0;
+  right: 32%;
+  border: 3px solid #000;
+  font-size: 14px;
+}
+.single_work_text h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,237 @@
+/*=====================
+    Responsive CSS
+======================*/
+/*
+Table of Content
+
+1. Header Area Heigh
+2. Row
+3. Tab
+3. Mobile
+*/
+
+/*------------------
+  Header Area Heigh
+-------------------*/
+@media only screen and (min-width: 961px) and (max-width: 1300px) {
+  .header_area .col-6 {
+    display: contents;
+  }
+}
+/*------------------
+      Tab Layout
+-------------------*/
+@media only screen and (max-width: 991px) {
+  /*Owl-nav*/
+  .owl-nav > button > div {
+    border: 1px solid #fff;
+  }
+  .owl-nav > button > div > i {
+    color: #fff;
+  }
+  /*Welcome Area*/
+  .welcome_area {
+    text-align: center;
+  }
+  .welcome_text h1 {
+    line-height: 50px;
+  }
+  .welcome_text_table_cell {
+    display: block;
+    padding-top: 100px;
+  }
+  .welcome_area .col-lg-6 {
+    height: 470px;
+  }
+
+  /*About Area*/
+  .about_area .about_img {
+    margin-top: 450px;
+    text-align: center;
+  }
+  .about_area .about_text {
+    padding: 30px 15px 0 15px;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  /* Service Area*/
+  .single_service:first-child {
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  /* Client Area */
+  .single_client_img {
+    height: 550px;
+  }
+  .single_client_img img {
+    height: 100%;
+  }
+  .client_area .owl-nav {
+    left: 43%;
+  }
+
+  /* Testimonial Row Area*/
+  .testimonials_container {
+    margin-top: -10px;
+  }
+  .testimonial_thumb_content_area {
+    display: none;
+  }
+  .testimonials_carousel .owl-nav {
+    right: 40%;
+    bottom: -35px;
+  }
+
+  /*Contact Area */
+  img.contact_img {
+    left: -35%;
+  }
+}
+
+/*------------------
+    Mobile Layout
+-------------------*/
+@media only screen and (max-width: 767px) {
+  /*Common CSS*/
+  .heading {
+    text-align: center;
+  }
+  .heading h2 {
+    font-size: 25px;
+  }
+  .heading2 h3 {
+    font-size: 25px;
+  }
+  .heading3 h2 {
+    font-size: 25px;
+  }
+
+  /*Button*/
+  .cbtn {
+    padding: 5px 10px !important;
+    font-size: 12px !important;
+  }
+  .welcome_area .cbtn {
+    left: 0%;
+  }
+  .about_text .cbtn.cbtn1 {
+    left: 31%;
+  }
+  .counter_area .cbtn {
+    left: 31%;
+  }
+  .client_card .cbtn.cbtn1 {
+    left: 32%;
+    margin-bottom: 10px;
+    margin-top: -10px;
+  }
+  .service_area .heading_rbtn .cbtn.cbtn1 {
+    left: -36%;
+  }
+  .blog_area .heading_rbtn .cbtn.cbtn1 {
+    left: -38%;
+    margin-bottom: 10px;
+  }
+
+  /*Contact Form*/
+  .form_popup .contact_form {
+    width: 95%;
+    margin-top: 30%;
+  }
+
+  /*Welcome Area*/
+  .welcome_area .col-lg-6 {
+    height: 520px;
+  }
+  .welcome_area .space_50 {
+    height: 20px;
+  }
+  .welcome_slider_img {
+    height: 580px;
+  }
+  .single_welcome_slider {
+    height: 580px;
+  }
+  .welcome_slider_card {
+    width: 200px;
+  }
+  .welcome_slider_img .owl-dots {
+    bottom: 0%;
+    right: 15%;
+  }
+
+  /*About Area*/
+  .about_area .about_img {
+    margin-top: 200px;
+  }
+  .about_area .about_text h1 {
+    font-size: 25px;
+  }
+  .about_area .space_30 {
+    height: 10px;
+  }
+  .about_text h1 {
+    text-align: center;
+  }
+  .about_area .about_text h1::after {
+    width: 175px;
+    bottom: -5px;
+    left: 10%;
+  }
+
+  /*Counter Area*/
+  .counter_padding {
+    padding: 40px 15px 40px 15px;
+  }
+  .counter_text p {
+    text-align: center;
+  }
+  .counters::after {
+    display: none;
+  }
+
+  /*Service Area*/
+  .service_area .mobile_spacing {
+    margin-top: -55px;
+  }
+
+  /*Work Area*/
+  .work_area .heading {
+    margin-bottom: 30px;
+  }
+
+  /*Client Area*/
+  .client_area .owl-nav {
+    left: 30%;
+    bottom: 1%;
+  }
+  .client_card {
+    padding: 0px 13px;
+  }
+  .card_counter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  /*Testimonial Area*/
+  .testimonials_carousel .owl-nav {
+    right: 30%;
+  }
+
+  /*Footer Area*/
+  .footer_area {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .footer_social {
+    text-align: center;
+    margin-top: 45px;
+    margin-right: 45px;
+  }
+  .footer_area p {
+    text-align: center;
+  }
+}

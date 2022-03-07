@@ -1,0 +1,86 @@
+/*=====================
+    Counter Area CSS
+======================*/
+.counter_wrap {
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fbbf3f;
+}
+.counter_wrap .row padding_zero {
+  padding: 0;
+}
+.counter_padding {
+  padding: 40px 40px 40px 55px;
+}
+.heading2 h3 {
+  font-size: 30px;
+  color: #060606;
+  line-height: 36px;
+  font-weight: 500;
+  position: relative;
+  z-index: 2;
+}
+.heading2 p {
+  color: #060606;
+  margin-top: 30px;
+}
+
+.heading2 h3:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100px;
+  background: #060606;
+  bottom: 0;
+  margin: 0 0 10px 30px;
+}
+.single_counter {
+  padding: 23px !important;
+}
+.counters {
+  background: #fff;
+  padding: 27px !important;
+  position: relative;
+  z-index: 2;
+}
+.counter_text p {
+  text-align: center;
+  font-weight: 600;
+  color: #424242;
+}
+.counters::before {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 100%;
+  background: #ededed;
+  left: 0;
+  top: 50%;
+  margin-top: -1px;
+}
+.counters::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 1px;
+  background: #ededed;
+  top: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+.counter .row {
+  margin: 0;
+}
+.counter_icon img {
+  max-width: 55px;
+  max-height: 50px;
+}
+.counter_text {
+  color: #060606;
+}
+.counter_text span {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 20px 0;
+  display: inline-block;
+}

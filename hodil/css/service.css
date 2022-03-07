@@ -1,0 +1,63 @@
+/*=====================
+    Service Area CSS
+======================*/
+.heading h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+.heading_rbtn {
+  text-align: right;
+}
+.single_service {
+  background: #fff;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.single_service {
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.service_img img {
+  width: 100%;
+}
+.single_service1:hover .service_img img {
+  -webkit-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+}
+.single_service1:hover {
+  background: #3fe8fb65;
+  -webkit-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+}
+.single_service1:hover a {
+  color: #fff;
+  -webkit-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+}
+.service_text {
+  padding: 25px;
+}
+.service_text h3 a {
+  color: #060606;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.single_service:hover h3 a {
+  color: #fbbf3f;
+}
+.service_text p {
+  color: #060606;
+  margin: 20px 0px 40px 0;
+}

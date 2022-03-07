@@ -1,0 +1,110 @@
+/*=====================
+    Footer Area CSS
+======================*/
+.footer_arae {
+  position: relative;
+  z-index: 2;
+}
+.footer_social {
+  text-align: right;
+}
+.footer_social li {
+  display: inline-block;
+  margin-left: 5px;
+}
+.footer_social li a {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #343434;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #616161;
+}
+.footer_social li a:hover {
+  background: #343434;
+  color: #fff;
+}
+.single_footer {
+  margin-bottom: 30px;
+}
+.single_footer h5 {
+  margin-bottom: 25px;
+}
+.single_footer_menu ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.single_footer_menu li a {
+  font-size: 16px;
+  line-height: 32px;
+  color: #bcbcbc;
+  text-decoration: none;
+}
+.single_footer_menu a:hover {
+  color: #fbbf3f;
+}
+.footer_contact h6 {
+  margin-bottom: 15px;
+}
+
+.footer_contact a {
+  color: #fbbf3f;
+}
+.footer_contact p {
+  color: #bcbcbc;
+}
+.footer_contact a:hover {
+  color: #bcbcbc;
+}
+.copyright p {
+  color: #bcbcbc;
+}
+
+.footer_chat_option {
+  position: fixed;
+  right: 1%;
+  bottom: 2%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  background: #fbbf3f;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 2;
+}
+img.footer_map {
+  position: absolute;
+  bottom: 1%;
+  right: 3%;
+  z-index: 99;
+}
+.footer_bottom {
+  background: #343433;
+}
+
+.footer_bottom a {
+  color: #7e7e7e;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+  padding: 15px 0;
+  font-size: 15px;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+.footer_bottom a i {
+  position: absolute;
+  right: -40px;
+  top: 50%;
+  margin-top: -15px;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  background: #383838;
+  border-radius: 50%;
+}

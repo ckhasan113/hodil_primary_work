@@ -1,0 +1,69 @@
+/*=====================
+Contact Form Area CSS
+======================*/
+.form_popup {
+  background: #000;
+  width: 100%;
+  height: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99999;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.form_popup.active {
+  visibility: visible;
+  opacity: 1;
+  height: 100%;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.form_popup .contact_form {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 9%;
+  border-radius: 5px;
+  -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+  -webkit-transition: all 0.7s;
+  -o-transition: all 0.7s;
+  transition: all 0.7s;
+}
+.form_popup.active .contact_form {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.7s;
+  -o-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.close_btn {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  font-size: 56px;
+  cursor: pointer;
+  -webkit-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+  z-index: 999999;
+  cursor: pointer;
+}
+
+.close_btn:hover {
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  -webkit-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+}

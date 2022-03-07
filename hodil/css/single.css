@@ -1,0 +1,370 @@
+/*=====================
+  Single Page Area CSS
+======================*/
+/*
+-----------------------------
+Table Of Content
+
+1. Common
+2. News Details
+3. About Details
+4. Service List
+5. Card
+6. News Testimonial
+7. Video
+8. Social
+9. Sidebar Area
+    a. Search
+    b. Heading
+    c. Line
+    d. Article
+    e. Categories
+    
+10. News Contact Area
+11. Comment Area
+12. Page Navigation
+
+------------------------------
+*/
+
+/* Common */
+.news_details_page p {
+  margin-bottom: 10px;
+}
+/* News Details */
+.news_details_location {
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+}
+.news_details_img img {
+  border-radius: 10px;
+}
+.news_details_single_sub p {
+  color: #828282;
+  font-size: 12px;
+  line-height: 20px;
+}
+.news_details_single_sub p span {
+  display: block;
+  color: #2b2b2b;
+  font-weight: 600;
+}
+.news_details_sub {
+  padding: 25px 0px 0px 50px;
+}
+.news_details_sub div {
+  display: inline-block;
+  width: 24%;
+  position: relative;
+  z-index: 2;
+  padding-left: 20px;
+}
+.news_details_sub div::after {
+  position: absolute;
+  content: "";
+  height: 6px;
+  width: 6px;
+  background: #fbbf3f;
+  top: 7px;
+  left: 8px;
+}
+/* About Details */
+.about_details h1 {
+  font-size: 15px;
+  color: #fbbf3f;
+  margin-bottom: 20px;
+}
+.about_details .top_area h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.about_details .min_img {
+  border-radius: 15px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.about_details .single_p {
+  color: #838383;
+  font-size: 15px;
+}
+.about_details h2 {
+  font-size: 30px;
+  margin: 40px 0 20px 0;
+}
+/* Service List */
+.service_list li {
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 2;
+  left: -15px;
+  list-style: none;
+}
+.service_list li:first-child {
+  margin-top: 35px;
+}
+.service_list li:last-child {
+  margin-bottom: 0px;
+}
+.service_list li::after {
+  position: absolute;
+  content: "";
+  height: 5px;
+  width: 5px;
+  background: #fbbf3f;
+  left: -15px;
+  top: 42%;
+  border-radius: 50%;
+}
+.service_list.service_list2 li::after {
+  top: 10px;
+}
+.service_list.service_list2 li span {
+  color: #fbbf3f;
+}
+/* Card */
+.card_box {
+  background: #1d1d1d;
+}
+.card_box.news_testimonial {
+  border-radius: 15px;
+  padding: 35px;
+  margin: 55px 0px;
+}
+.card_box.single_article {
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 25px;
+}
+/* News Testimonial */
+.news_testimonial_text p {
+  font-weight: 500;
+  font-style: italic;
+  margin: 25px 0 75px 0;
+}
+.news_testimonial_author {
+  position: relative;
+  z-index: 2;
+  padding-left: 80px;
+  margin-top: 35px;
+}
+.news_testimonial_author_img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  left: 0px;
+  top: 30%;
+  margin-top: -20px;
+}
+.news_testimonial_author_details p {
+  font-weight: 600;
+}
+.news_testimonial_author_details p span {
+  font-weight: 400;
+  display: block;
+}
+/* Video */
+.service_video {
+  position: relative;
+  z-index: 2;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 70px 0;
+  max-height: fit-content;
+}
+.service_video img {
+  width: 100%;
+  max-height: 470px;
+}
+a.service_play_icon {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  height: 60px;
+  width: 60px;
+  font-size: 50px;
+  color: #fb3f3f;
+  transition: all 0.5s;
+}
+a.service_play_icon:hover {
+  color: #fbbf3f;
+  transition: all 0.5s;
+}
+/* Social */
+.single_news_social .abou_social_heading {
+  text-transform: uppercase;
+  padding-right: 40px;
+  margin: 0 0 80px -30px;
+}
+.single_news_social .footer_social {
+  text-align: left;
+}
+/* Sidebar Area */
+/* Search */
+.search_box {
+  position: relative;
+  z-index: 2;
+  background: #1d1d1c;
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.search_box input {
+  background: none;
+  border: none;
+  padding-left: 40px;
+  color: #fff;
+}
+.search_icon {
+  position: absolute;
+  top: 50%;
+  margin-top: -12px;
+  left: 15px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+}
+/* Heading */
+.popular_articles h2 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-top: 40px;
+}
+/* Line */
+.sidebar_line {
+  position: relative;
+  margin: 15px 0;
+  height: 1px;
+  background: #404142;
+  z-index: 2;
+}
+.sidebar_line::after {
+  position: absolute;
+  content: "";
+  background: #fbbf3f;
+  height: 1px;
+  width: 15%;
+  left: 0;
+  top: 0;
+}
+/* Article */
+.article_date p {
+  display: inline-block;
+  background: #fbbf3f;
+  padding: 5px 25px 5px 10px;
+  border-radius: 0px 30px 30px 0;
+  margin-bottom: 15px;
+  font-size: 12px;
+  color: #060606;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.articale_categories p {
+  display: inline-block;
+  color: #fbbf3f;
+  font-size: 12px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.single_article h3 a {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+/* Categories */
+.categories li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  text-transform: capitalize;
+}
+/* News Contact Area */
+.news_form .heading h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.news_form input,
+.news_form textarea {
+  background: #1d1d1c;
+  border: navajowhite;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: #fff;
+  padding: 15px 5px 15px 20px;
+  font-size: 15px;
+}
+/* Comment Area */
+.single_comment {
+  position: relative;
+  z-index: 2;
+  padding-left: 80px;
+  margin-bottom: 60px;
+}
+.single_comment:last-child {
+  margin-bottom: 0px;
+}
+.single_comment::before {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 100%;
+  background: #2b2b2b;
+  left: 0;
+  top: -30px;
+}
+.single_comment:first-child:before {
+  display: none;
+}
+.comment_img {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.comment_text h4 {
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.comment_text h4 a {
+  float: right;
+  color: #fbbf3f;
+  font-size: 16px;
+  text-decoration: none;
+}
+.comment_text h4 a:hover {
+  color: #2290ff;
+  transition: all 0.5s;
+}
+.comment_text p {
+  font-size: 16px;
+}
+/* Page Navigation */
+.cpagination {
+  float: right;
+}
+.cpagination a {
+  background: #1d1d1c;
+  margin: 0 3px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+}
+.cpagination a:hover {
+  background: #fbbf3f;
+  color: #060606;
+}

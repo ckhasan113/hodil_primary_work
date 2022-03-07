@@ -1,0 +1,41 @@
+/*=====================
+    About Area CSS
+======================*/
+.about_area .about_img {
+  position: relative;
+  z-index: 2;
+}
+.about_area .about_img::after {
+  position: absolute;
+  content: "";
+  height: 150px;
+  width: 100%;
+  background: -o-linear-gradient(271deg, transparent, #060606);
+  background: linear-gradient(179deg, transparent, #060606);
+  left: 0;
+  bottom: 0;
+}
+.about_area .about_text {
+  margin-left: 70px;
+  width: 100%;
+}
+.about_area .about_text h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  position: relative;
+  z-index: 2;
+}
+.about_area .about_text h1::after {
+  font-size: 50px;
+  height: 2px;
+  width: 100px;
+  bottom: 0;
+  background: #fbbf3f;
+  position: absolute;
+  content: "";
+  margin: 0 0 10px 30px;
+}
+.about_area .about_text p {
+  margin-top: 30px;
+}

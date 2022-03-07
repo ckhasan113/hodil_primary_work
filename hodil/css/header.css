@@ -1,0 +1,30 @@
+/*=====================
+    Header Area CSS
+======================*/
+.header_area_wrap {
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.header_area_wrap.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #000;
+  z-index: 99;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.header_area .container-fluid {
+  padding: 0 5%;
+}
+.header_area {
+  position: relative;
+  z-index: 99;
+}
+.header_area_wrap {
+  position: absolute;
+  width: 100%;
+}

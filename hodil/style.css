@@ -1,0 +1,182 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/*=====================
+    Common CSS
+======================*/
+/*
+-----------------------------
+Table Of Content
+
+1. Selector Tag
+2. Theme
+3. Border
+4. Text Align
+5. Space
+6. Padding
+7. Margin
+8. Heading
+9. Others
+
+------------------------------
+*/
+
+/* Selector Tag */
+body {
+  position: relative;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  color: #3e425c;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  display: inline-block;
+}
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+  outline: 0;
+  width: 100%;
+}
+
+/* Theme */
+.theme_background {
+  background: #060606;
+}
+.theme_background2 {
+  background: #1d1d1c;
+}
+.theme_half_top {
+  position: relative;
+  z-index: 2;
+}
+.theme_half_top::after {
+  position: absolute;
+  content: "";
+  height: 50%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #1d1d1c;
+  z-index: -1;
+}
+
+/* Border */
+.border_buttom_none {
+  border-bottom: 0px;
+}
+.border_radious_10 {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.border_radius_0_10_10_0 {
+  border-radius: 0 10px 10px 0;
+  overflow: hidden;
+}
+.section_border {
+  border-top: 1px solid #343433;
+}
+
+/* Text Align */
+.right {
+  text-align: right;
+}
+
+/* Space */
+.space_20 {
+  height: 20px;
+}
+.space_30 {
+  height: 30px;
+}
+.space_40 {
+  height: 40px;
+}
+.space_50 {
+  height: 50px;
+}
+.space_60 {
+  height: 60px;
+}
+.space_80 {
+  height: 80px;
+}
+.space_100 {
+  height: 100px;
+}
+.space_120 {
+  height: 120px;
+}
+
+/* Padding */
+.section_padding {
+  padding: 80px 0 50px 0;
+}
+.section_padding_top_bottom_120 {
+  padding: 120px 0;
+}
+.padding_bottom_80 {
+  padding-bottom: 80px;
+}
+.no_padding {
+  padding: 0 0 0 0 !important;
+}
+
+/* Margin */
+.no_margin {
+  margin: 0 0 0 0 !important;
+}
+
+/* Heading */
+.heading3 h2 {
+  font-size: 36px;
+  color: #060606;
+  line-height: 42px;
+  font-weight: 600;
+  position: relative;
+  z-index: 2;
+}
+
+/* Others */
+.no_arrow {
+  -moz-appearance: textfield;
+}
+.no_arrow::-webkit-inner-spin-button {
+  display: none;
+}
+.no_arrow::-webkit-outer-spin-button,
+.no_arrow::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
